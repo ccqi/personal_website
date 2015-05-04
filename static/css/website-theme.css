@@ -1,0 +1,183 @@
+.clear-both{
+	clear: both;
+}
+.float-right {
+	float:right;
+}
+.img-center{
+	margin: 0px auto 0px auto
+}
+.main-layout{
+	width:80%;
+	margin: 0px auto 0px auto;
+	border:1px solid #000000;
+}
+.custom-navbar{
+	margin-bottom: 0px;
+	
+}
+
+.col-theme{
+	/*border-bottom-width: 1px;
+	border-bottom-style: solid;
+	z-index: 1;*/
+	
+}
+.website-margin{
+	margin: 0 30px 30px 30px;
+}
+.inline{
+	display: inline;
+}
+.transbox{
+	background-color: #f3f3f3;
+	opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+	box-shadow: 1px 1px 5px #888888;
+}
+/*overlay from codekhan.com*/
+.thumb {
+position:relative;
+width:inherit;
+height:inherit;
+max-height:100%;
+max-width:100%;
+
+}
+.icon-size{
+	font-size:40px;
+	text-align: justify;
+	
+}
+.icon-margin{
+	display:inline-block;
+}
+
+p{
+font-size:17px;
+
+}
+h2{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+h3{
+	font-family: "Times New Roman", Times, serif;
+}
+/* .thumb .overlay-bottom{
+transition:opacity 1s;
+-webkit-transition:opacity 1s;
+} */
+/* .thumb:hover .overlay-bottom {
+opacity:0.9;
+} */
+
+.thumb .overlay-bottom{
+opacity:0.9;
+
+}
+
+
+.thumb .overlay{
+transition:opacity 1s;
+-webkit-transition:opacity 1s;
+}
+.thumb:hover .overlay {
+opacity:0.95;
+}
+
+.overlay {
+position:absolute;
+left:0;
+right:0;
+top:0;
+width:inherit;
+width:100%;
+height:inherit;
+background:#fff;
+opacity:0;
+margin: 0 10px 0 10px;
+}
+.overlay-bottom{
+position:absolute;
+left:0;
+right:0;
+bottom:0;
+width:inherit;
+width:100%;
+height:25%;
+background:#fff;
+opacity:0;
+border-top: thick ridge #FF9B00;
+border-bottom: thick ridge #FF9B00;
+}
+
+.image-container{
+width:100%;
+height:658px;
+max-height:658px;
+position:relative;
+background-size:contain;
+}
+
+
+
+img{
+width:inherit;
+max-width: 100%;
+max-height: 100%;
+
+}
+body {
+    background-color: #A3DAFF;
+	/*background-image: url("../images/background3.png");*/
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	
+}
+#icon-layout{
+  text-align: justify;
+  font-size: 40px; /* IE 9 & 10 don't like font-size: 0; */
+  height:60px;
+}
+#icon-layout i {
+  display: inline-block;f
+}
+#icon-layout:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+#background-img{
+	background: url(../images/background-image.jpg);
+}
+#title{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 40px;
+}
+
+#texasholdem{
+	background: url(../images/texasholdem.png);
+}
+#mooc{
+	background: url(../images/mooc.png);
+	background-size:contain;
+}
+#linkedin{
+	color:#0077B5
+}
+#facebook{
+	color:#3B5998
+}
+#github{
+	color:#000000;
+}
+#email{
+	color:rgb(42, 98, 145);
+}
+
+
+
+

@@ -5,6 +5,10 @@ app.get('/', function (req, res) {
   res.sendfile('static/index.html',{root:__dirname});
 });
 
+app.get('/contact',function(req,res){
+  res.sendfile('static/contact.html',{root:__dirname});
+});
+
 var server = app.listen(8080, function () {
 
   var host = server.address().address;
