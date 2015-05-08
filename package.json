@@ -4,7 +4,9 @@
   "description": "website to learn mean stack",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.12.3"
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "nodemailer": "~0.7.1"
   },
   "devDependencies": {},
   "scripts": {

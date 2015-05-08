@@ -8,6 +8,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="font-awesome/font-awesome-4.3.0/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 	<script src="js/bootstrap.js"></script>
 </head>	
 <body>
@@ -15,28 +17,25 @@
 <div class="container">
 	<div class="row transbox">
 		<div class="col-med-1">
-			<nav class="navbar navbar-default custom-navbar">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="/"><div id="title">Charles Qi</div></a>
-				
-				</div>
-				<ul class="nav navbar-nav float-right">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="https://www.google.ca">Projects</a></li>
-					<li><a href="charles-resume.pdf">Resume</a></li> 
-					<li><a href="/contact">Contact Me</a></li> 
+			<div class="container">
+			<a href="/"><span id="title">Charles</span><span id="title2">Qi</span></a>
+				<ul class="float-right custom-navbar">
+					<li class="custom-navbar is-active"><a href="/">Home</a></li>
+					<li class="custom-navbar"><a href="/project">Projects</a></li>
+					<li class="custom-navbar"><a href="charles-resume.pdf">Resume</a></li> 
+					<li class="custom-navbar"><a href="/contact">Contact Me</a></li> 
 				</ul>
 				<div class="clear-both"></div>
-			</nav>
+			</div>
 		</div>
 	</div>
 	
 		
 	<div class="row transbox">
 		<div class="website-margin">
-			<div class="col-theme">
+			<!--<div class="col-theme">
 				<h2>About me</h2>
-			</div>
+			</div>-->
 			
 			
 			
@@ -68,9 +67,9 @@
         <div class="col-med-2 thumb image-container" id="texasholdem">
 			<div class="overlay-bottom">
 				<div class="container">
-					<a href ="texasholdem"><h2>No Limit Texas Holdem</h2></a>
+					<a href ="project#texasholdem"><h2>No Limit Texas Holdem</h2></a>
 					<p>This is the CS final project for grade 12 implemented with Jaden Chen. It is written in C#. It has a nice UI, object orientated design and contains AI with multiple difficulty level and play styles.</p>
-					<a href="url"><p>Want to know more?</p></a>
+					<p>Want to know more?</p>
 				</div>
 			</div>
 		</div>
@@ -80,9 +79,9 @@
 		<div class="col-med-2 thumb image-container" id="mooc">
 			<div class="overlay-bottom">
 				<div class="container">
-					<a href ="texasholdem"><h2>A New Way of Learning</h2></a>
+					<a href ="project#mooc"><h2>A New Way of Learning</h2></a>
 					<p>Want to know a way to learn useful knowledge from the best universities in the world?</p>
-					<a href="url"><p>It's completely free!</p></a>
+					<p>It's completely free!</p>
 			</div>
 		</div>
 		
@@ -100,11 +99,11 @@
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <a class="left carousel-control custom-carousel" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <a class="right carousel-control custom-carousel" href="#myCarousel" role="button" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>

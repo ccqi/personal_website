@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css/website-theme.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="font-awesome/font-awesome-4.3.0/css/font-awesome.min.css">
 	<script src="js/bootstrap.js"></script>
 </head>
 
@@ -14,40 +16,37 @@
 	<div class="container"> 
 	<div class="row transbox">
 		<div class="col-med-1">
-			<nav class="navbar navbar-default custom-navbar">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#"><div id="title">Charles Qi</div></a>
-				
-				</div>
-				<ul class="nav navbar-nav float-right">
-					<li><a href="/">Home</a></li>
-					<li><a href="https://www.google.ca">Projects</a></li>
-					<li><a href="charles-resume.pdf">Resume</a></li> 
-					<li class="active"><a href="/contact">Contact Me</a></li> 
+			<div class="container">
+			<a href="/"><span id="title">Charles</span><span id="title2">Qi</span></a>
+				<ul class="float-right custom-navbar">
+					<li class="custom-navbar"><a href="/">Home</a></li>
+					<li class="custom-navbar"><a href="/project">Projects</a></li>
+					<li class="custom-navbar"><a href="charles-resume.pdf">Resume</a></li> 
+					<li class="custom-navbar is-active"><a href="/contact">Contact Me</a></li> 
 				</ul>
 				<div class="clear-both"></div>
-			</nav>
+			</div>
 		</div>
 	</div>
 	<div class="row transbox container">
-		<h3>If you have any questions, feel free to send me an email</h3>
-		
+		<h3>If you have any questions, feel free to send me an email at ccqi@uwaterloo.ca, or fill out the form below</h3>
+		</br>
 		<form action = "sendEmail" method = "POST">
 			<div class="form-group">
 			<label>Your name*</label>
-			<input type = "text" class="form-control"></input>
+			<input type = "text" class="form-control" name="username"></input>
 			<div class="clear-both"></div>
 			<label>Your email*</label>
-			<input type = "email" class="form-control"></input>
+			<input type = "email" class="form-control" name="email"></input>
 			<div class="clear-both"></div>
 			<label>Subject</label>
-			<input type = "text" class="form-control"></input>
+			<input type = "text" class="form-control" name="subject"></input>
 			<div class="clear-both"></div>
 			<label>Message</label>
-			<textarea type = "text" rows="10" class="form-control"></textarea>
+			<textarea type = "text" rows="10" class="form-control" name="message"></textarea>
 			<div class="clear-both"></div>
 			</br>
-			<input type = "submit" class="btn btn-default" value="Contact Me!"></input>
+			<input type = "submit" class="btn btn-primary" value="Contact Me!"></input>
 			</div>
 		</form>
 	</div>

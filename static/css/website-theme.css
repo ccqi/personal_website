@@ -1,8 +1,27 @@
+ul.custom-navbar{
+	list-style-type:none;
+	
+}
+li.custom-navbar{
+	display:inline-block;
+	margin-right:20px;
+	position: relative;
+	/* top: 120%;
+	transform: translateY(120%);*/
+	vertical-align: middle; 
+	text-align: center;
+	font-size:16px;
+	margin-top:23px;
+}
+
 .clear-both{
 	clear: both;
 }
 .float-right {
 	float:right;
+}
+.float-left {
+	float:left;
 }
 .img-center{
 	margin: 0px auto 0px auto
@@ -30,7 +49,7 @@
 	display: inline;
 }
 .transbox{
-	background-color: #f3f3f3;
+	background-color: #ffffff;
 	opacity: 0.9;
     filter: alpha(opacity=90); /* For IE8 and earlier */
 	box-shadow: 1px 1px 5px #888888;
@@ -53,9 +72,15 @@ max-width:100%;
 	display:inline-block;
 }
 
+.is-active{
+border-bottom: thin ridge #FF9B00;
+}
+
 p{
 font-size:17px;
-
+}
+h1{
+	font-family: "Times New Roman", Times, serif;
 }
 h2{
 	font-family: "Times New Roman", Times, serif;
@@ -63,6 +88,9 @@ h2{
 }
 h3{
 	font-family: "Times New Roman", Times, serif;
+}
+h3.inline{
+	display:inline;
 }
 /* .thumb .overlay-bottom{
 transition:opacity 1s;
@@ -118,9 +146,19 @@ height:658px;
 max-height:658px;
 position:relative;
 background-size:contain;
+border-top: thick ridge #FF9B00;
 }
-
-
+.image-container-small{
+width:200px;
+height:200px;
+/*max-height:320px;*/
+position:relative;
+background-size:contain;
+margin: 0 20px 0 0;
+}
+.custom-carousel{
+	height:75%;
+}
 
 img{
 width:inherit;
@@ -154,8 +192,15 @@ body {
 	background: url(../images/background-image.jpg);
 }
 #title{
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 40px;
+	font-family: 'Vollkorn', sans-serif;
+	font-size: 50px;
+	display: inline-block;
+}
+#title2{
+	font-family: 'Vollkorn', sans-serif;
+	font-size: 50px;
+	display: inline-block;
+	color: rgb(255, 155, 0)
 }
 
 #texasholdem{
@@ -177,7 +222,30 @@ body {
 #email{
 	color:rgb(42, 98, 145);
 }
-
+#machine-learning{
+	background: url(../images/machine_learning.jpg);
+	background-size:contain;
+}
+.blog-margin{
+	padding:20px 30px 20px 30px;
+	border-bottom: inherit;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+#mooc2{
+	background: url(../images/mooc2.jpg);
+	background-size:contain;
+	width:800px;
+	height:492px;
+}
+#texasholdem2{
+	background: url(../images/texasholdem.png);
+	width:1000px;
+	height:544px;
+	background-size:contain;
+	margin-bottom:20px;
+]
 
 
 
